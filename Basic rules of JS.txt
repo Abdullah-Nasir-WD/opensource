@@ -1,0 +1,61 @@
+				"Basic javascript rules/guidence for bigginers"
+
+
+
+1.Variables: Use let, const, or var to declare variables.
+
+-let allows you to reassign a value.
+-const is used for constants, values that can't be reassigned.
+-var is older and less commonly used due to issues with scoping.
+
+
+
+
+2.Data Types: JavaScript has 6 primitive data types:
+
+-String, Number, BigInt, Boolean, Undefined, and Symbol.
+-Non-primitive types include Objects and Arrays.
+
+
+
+
+3.Function Declaration: Functions are used to perform tasks or calculations.
+for example:
+
+"javascript
+Copy
+function greet(name) {
+  return 'Hello ' + name;
+}"
+
+
+
+
+4.Semicolons: JavaScript doesn’t always require semicolons at the end of statements due to Automatic Semicolon Insertion, but it’s best practice to include them to avoid potential issues.
+
+
+
+
+5.Equality: Use === (strict equality) and !== (strict inequality) to check both type and value. Avoid using == or !=, which can lead to unexpected type conversions.
+
+
+
+
+6.Comments: Use // for single-line comments and /* */ for multi-line comments.
+
+
+
+7.Conditionals: Use if, else if, and else for branching logic.
+
+
+
+8.Loops: JavaScript supports loops like for, while, and do...while for repeated execution of code.
+
+
+
+
+9.Objects and Arrays: Objects store collections of data in key-value pairs, while arrays store ordered data.
+
+
+
+10.Events: JavaScript is event-driven, and event listeners are used to respond to user actions like clicks or keypresses.
